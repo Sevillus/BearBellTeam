@@ -1,28 +1,25 @@
 #home-page {
   &__navbar {
-    position: relative;
     display: flex;
+    position: relative;
+    right: 30px;
     top: 15px;
     transition: transform 0.3s ease-in-out;
-    right: 30px;
     h3{
       transition: 0.4s;
     }
-
     h3:hover {
       color: #568c56;
     }
-
     #contact {
       border-right: none;
     }
   }
-
   &__navbar.show {
     @media (min-width: 1016px) {
-    transform: translate(0, -50%);
-  }}
-
+      transform: translate(0, -50%);
+    }
+  }
   .activeMenu {
     visibility: visible;
     transform: translate(0, 0);
