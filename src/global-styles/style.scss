@@ -1,0 +1,36 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--color-primary);
+  font-family: 'Roboto', sans-serif;
+
+}
+a{
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: 0.4s;
+}
+h1{
+  font-size: 48px;
+
+}
+p {
+  width: 95%;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+h3{
+  margin-top: 30px;
+  color: #ffffff;
+  padding: 10px;
+  border-right: solid 1px white;
+  font-weight: 500;
+}

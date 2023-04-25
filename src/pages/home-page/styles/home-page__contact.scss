@@ -1,0 +1,60 @@
+#home-page{
+  &__contact{
+    --form-width :30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+      font-size: var(--h1-size);
+      border-bottom: 2px solid #279627;
+    }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: var(--form-width);
+    label{
+      margin-bottom: -20px;
+    }
+    input{
+      padding: 10px;
+      height: 50px;
+      border: none;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.5);
+      }
+    textarea{
+      padding: 10px;
+      border-radius: 5px;
+      height: 50%;
+      background: rgba(255, 255, 255, 0.5);
+    }
+    .contactBtn{
+      width: 100%;
+      margin: 0;
+      height: 60px;
+      color: #f8eded;
+    }
+    span{
+      margin: -20px 0 -5px 0 ;
+      color: #ff3a3a;
+      font-size: 18px;
+      display: none;
+
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+
+
+    @media (max-width: 1000px) {
+      --form-width: 50%;
+    }
+    @media (max-width: 600px) {
+      --form-width: 75%;
+    }
+  }
+}

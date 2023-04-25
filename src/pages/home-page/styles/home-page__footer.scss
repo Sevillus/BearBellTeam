@@ -1,0 +1,56 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  width: 90%;
+
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.3);
+  .logo{
+    width: 150px;
+    height: 150px;
+  }
+  span{
+    font-size: 14px;
+    width: 80%;
+  }
+  .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 800px) {
+      flex-direction: column;
+      gap: 30px;
+
+    }
+   &_box{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+   }
+    a{
+      margin: 5px;
+    }
+    h2{
+     font-size: 22px;
+      margin: 0;
+    }
+    p{
+      margin: 0;
+    }
+    h4{
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      filter: brightness(0%) invert(100%);
+      margin: 2px;
+      img{
+        width: 20px;
+      }
+    }
+
+  }
+
+}
