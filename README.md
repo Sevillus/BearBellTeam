@@ -1,15 +1,19 @@
+Moja pierwsza autorska strona, została stworzona dla kolegi posiadającego swoją drużynę w Trójboju siłowym.
+Podczas tworzenia strony cały czas się uczyłem korzystania z HTML 5, SCSS oraz JS stąd też w kodzie jest lekki chaos.
+
+
 Website: 
 https://bearbell-team.netlify.app/
 
 
 
-## How to run project
+## Jak uruchomić projekt
 
-If you run your this project for the first time, you need to install npm dependencies by typing
+Jeśli uruchamiasz projekt po raz pierwszy musisz zainstalować npm wpisując:
 
 ```npm install```
 
-In order to run your project in a development mode type
+W celu uruchomienia strony należy wpisać:
 
 ```npm run dev```
 
