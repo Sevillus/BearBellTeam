@@ -1,5 +1,5 @@
 Moja pierwsza autorska strona, została stworzona dla kolegi posiadającego swoją drużynę w Trójboju siłowym.
-Podczas tworzenia strony cały czas się uczyłem korzystania z HTML 5, SCSS oraz JS stąd też w kodzie jest lekki chaos.
+Podczas tworzenia strony cały czas się uczyłem korzystania z HTML 5, SCSS oraz JS.
 
 
 Website: 
