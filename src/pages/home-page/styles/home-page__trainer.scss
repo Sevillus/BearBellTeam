@@ -4,15 +4,16 @@
   --oferta-height:auto;
 
   &__trainer{
-
     padding: 100px 0 100px;
-
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 100px;
     h1{
       z-index: 10;
+    }
+    h3{
+      margin: 0;
     }
   }
   &__trainer-container{
@@ -34,10 +35,7 @@
       border:1px solid rgba(255, 255, 255, 0.2);
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
       padding: 20px;
-
     }
-
-
     .show-info{
       display: flex;
       cursor: pointer;
@@ -52,7 +50,6 @@
       transition: 0.4s;
       user-select: none;
     }
-
     .show-info:hover{
       color: #40c040;
     }
